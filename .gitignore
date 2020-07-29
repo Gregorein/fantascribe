@@ -1,0 +1,8 @@
+node_modules
+build/
+/*.log
+*.lock
+*.sublime-project
+*.sublime-workspace
+
+package-lock.json

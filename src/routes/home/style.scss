@@ -1,0 +1,36 @@
+@import "~styles/variables";
+
+.view {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 64px);
+
+  .link {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    :global .icon {
+      transition: fill $t $e;
+    }
+
+    .title {
+      transition: color $t $e;
+      padding-top: 16px;
+      color: $red-dark;
+      font-size: 64px;
+    }
+
+    &:hover {
+      :global .icon {
+        @include icon($blue-dark, $blue, $blue-light);
+      }
+
+      .title {
+        color: $blue-dark;
+      }
+    }
+  }
+}

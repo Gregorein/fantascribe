@@ -1,0 +1,19 @@
+{
+    "name": "Fantascribe",
+    "short_name": "Fantascribe",
+    "icons": [
+        {
+            "src": "/assets/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#bfb6a4",
+    "background_color": "#bfb6a4",
+    "display": "standalone"
+}

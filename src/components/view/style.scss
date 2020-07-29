@@ -1,0 +1,15 @@
+@import "~styles/variables";
+
+.container {
+  width: 100%;
+  height: calc(100vh - 64px);
+
+  position: relative;
+
+  overflow: auto;
+}
+
+.view {
+  width: 100%;
+  height: 100%;
+}

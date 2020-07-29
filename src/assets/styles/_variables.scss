@@ -1,0 +1,69 @@
+// FONTS
+$font-roboto: 'Roboto', sans-serif;
+$font-astloch: 'Astloch', cursive;
+$font-mountains: 'Mountains of Christmas', cursive;
+$font-crimson: 'Crimson Text', serif;
+$font-cinzel: 'Cinzel', serif;
+$font-macondo: 'Macondo Swash Caps', cursive;
+$font-fredericka: 'Fredericka the Great', cursive;
+$font-tulpen: 'Tulpen One', cursive;
+$font-kranky: 'Kranky', cursive;
+$font-dynalight: 'Dynalight', cursive;
+$font-new: 'New Rocker', cursive;
+$font-pirata: 'Pirata One', cursive;
+$font-yatra: 'Yatra One', cursive;
+$font-unifraktur: 'UnifrakturCook', cursive;
+$font-lancelot: 'Lancelot', cursive;
+$font-caesar: 'Caesar Dressing', cursive;
+$font-almendra: 'Almendra Display', cursive;
+$font-nova-cut: 'Nova Cut', cursive;
+$font-nova-oval: 'Nova Oval', cursive;
+$font-supermercado: 'Supermercado One', cursive;
+
+$font-main: $font-roboto;
+
+// VARS
+$t: 0.2s;
+$e: ease;
+
+$mobile: 768px;
+$tablet: 1336px;
+$desktop: $tablet+1;
+
+$sidebar-lock: 768px;
+
+$o: 0.4;
+
+// COLORS
+$black: black;
+$heavy: #0c0409;
+$dark: #262626;
+$medium: #53505a;
+$light: #BFB6A4;
+$white: white;
+
+$red: #A6654E;
+$red-light: #D99177;
+$red-dark: #734E40;
+
+$blue: #4E8EA6;
+$blue-light: #77BFD9;
+$blue-dark: #406573;
+
+@mixin icon($d, $m, $l) {
+  &--black {
+    fill: $d;
+  }
+  &--dark {
+    fill: darken($m, 5);
+  }
+  &--medium {
+    fill: $m;
+  }
+  &--light {
+    fill: $l;
+  }
+  &--white {
+    fill: lighten($l, 5);
+  }
+}
